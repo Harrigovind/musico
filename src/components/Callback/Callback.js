@@ -22,7 +22,7 @@ function Callback() {
         if (code && !tokenFetched){
             fetchSpotifyToken(code);
         }else {
-            navigate('/home');
+            navigate('#/home');
         }
 
     }, [navigate,tokenFetched]
