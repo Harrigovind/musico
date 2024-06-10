@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import LandingPage from './components/LandingPage/LandingPage';
+import HomePage from './components/HomePage/HomePage';
+import SearchPage from './components/SearchPage/searchPage';
+import Callback from './components/Callback/Callback';
+import ErrorBoundary from './components/ErrorBoundary/ErrorBoundary';
+import { PlayerProvider } from './contexts/PlayerContext';
+import Player from './components/Player/Player';
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="app">
+        
+        <ErrorBoundary>
+          <PlayerProvider>
+            <Player/>
+              <Routes>
+
+                <Route path="/" element={<LandingPage />} />
+                <Route path="/home" element={<HomePage />} />
+                <Route path="/search" element={<SearchPage/>} />
+                <Route path="/callback" element={<Callback/>} />
+
+
+              </Routes>
+          </PlayerProvider>   
+        </ErrorBoundary>
+      </div>
+    </Router>
   );
 }
 

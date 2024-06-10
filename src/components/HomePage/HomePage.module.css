@@ -1,0 +1,28 @@
+.homePage {
+    background-color: rgb(20,20,20);
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .trackList {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .track {
+    margin: 10px;
+    cursor: pointer;
+    background: #222;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .track img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  
