@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/musico/static/css/main.6b1dc9a5.css",
-    "main.js": "/musico/static/js/main.b2d17668.js",
+    "main.js": "/musico/static/js/main.fe9612b9.js",
     "static/js/453.39530929.chunk.js": "/musico/static/js/453.39530929.chunk.js",
     "static/media/MusiCo.png": "/musico/static/media/MusiCo.c29b30eb7d592c008061.png",
     "static/media/logo-bg.png": "/musico/static/media/logo-bg.4ae9335499ef21fc2c8e.png",
     "index.html": "/musico/index.html",
     "main.6b1dc9a5.css.map": "/musico/static/css/main.6b1dc9a5.css.map",
-    "main.b2d17668.js.map": "/musico/static/js/main.b2d17668.js.map",
+    "main.fe9612b9.js.map": "/musico/static/js/main.fe9612b9.js.map",
     "453.39530929.chunk.js.map": "/musico/static/js/453.39530929.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6b1dc9a5.css",
-    "static/js/main.b2d17668.js"
+    "static/js/main.fe9612b9.js"
   ]
 }
