@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const client_id = process.env.REACT_APP_SPOTIFY_CLIENT_ID;
-const redirect_uri = 'https://harrigovind.github.io/musico/callback';
+const redirect_uri = 'https://harrigovind.github.io/callback';
 const scope = process.env.REACT_APP_SPOTIFY_CLIENT_SCOPE;
 const url = 'https://accounts.spotify.com/authorize';
 const client_secret = process.env.REACT_APP_SPOTIFY_CLIENT_SECRET;
